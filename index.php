@@ -44,7 +44,7 @@ $tab["total"]=$total*1.2;
 
 
 $tab2["Total HT"]=$total;
-$tab2["TVA"]=$total/0.8;
+$tab2["TVA"]=$total*0.2;
 $tab2["Total"]=$total*1.2;
 
 
