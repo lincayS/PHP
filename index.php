@@ -7,8 +7,8 @@ include "header.php"
 $designation=array("jus","coca","eau","dessert","gateux","lait",);
 
 
-$prix=nb(10,60);
-$quant=nb(1,20);
+$prix=rand(10,60);
+$quant=rand(1,20);
 $total=$prix*$quant;
 
 
@@ -35,7 +35,7 @@ echo "</div>";
 }
 }
 
-$tab["Référence"]=nb(1000,2000);
+$tab["Référence"]=rand(1000,2000);
 $tab["désignation"]=desing($designation);
 $tab["prix u"]=$prix;
 $tab["quantité"]=$quant;

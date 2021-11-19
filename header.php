@@ -11,17 +11,7 @@
    
 
 
-<?php
-$min=0;
-$max=0;
-function nb($min,$max){
-        
-    
-        return rand($min,$max);
-    
-    
-    }  
-?>
+
 <?php
 
 
@@ -40,7 +30,7 @@ function desing($tab){
 <div id="div">
 <div>
 <?php
-$addnm=nb(1,80);
+$addnm=rand(1,80);
 $add=desing($adress);
 echo "Mon entreprise"."<br />".$addnm.
 " avenue de la republique "."<br />".$add;
@@ -49,13 +39,13 @@ echo "Mon entreprise"."<br />".$addnm.
 
 <div>
 <?php
-echo "Facture n° ".nb(900,1000).
-"<br />"."Date : ".nb(1,30)."/".nb(1,12)."/".nb(2015,2021);
+echo "Facture n° ".rand(900,1000).
+"<br />"."Date : ".rand(1,30)."/".rand(1,12)."/".rand(2015,2021);
 ?>
 </div>
 <div>
 <?php
-echo "Entreprise cliente"."<br />".nb(1,80).
+echo "Entreprise cliente"."<br />".rand(1,80).
 " avenue de la republique "."<br />".desing($adress);
 ?>
 </div>

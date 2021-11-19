@@ -2,7 +2,7 @@
     <p>Téléphone : </p>
 <a href="">
     <?php
-echo "0".nb(710000000,800000000)."-"."Email : moi@monentreprise.com"."-".$addnm.
+echo "0".rand(710000000,800000000)."-"."Email : moi@monentreprise.com"."-".$addnm.
 " avenue de la republique. ".$add; 
     ?>
 </a>
