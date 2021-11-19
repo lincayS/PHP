@@ -14,28 +14,16 @@
 <?php
 $min=0;
 $max=0;
-function generate($min,$max){
-        $tab=array();
+function nb($min,$max){
+        
     
-        for ($i=0;$i<rand(2,7);$i++){
-    
-            array_push($tab,rand($min,$max));
-    
-        }
-    
-        return $tab;
+        return rand($min,$max);
     
     
     }  
 ?>
 <?php
-function nb($min,$max){
-$nbalea=generate($min,$max);
 
-foreach ($nbalea as $key =>$value){
-}
-return $nbalea[$key];
-}
 
 function desing($tab){
 
